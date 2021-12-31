@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #333;
+  background: #8a8383;
 }
 
 .main-game {
@@ -17,8 +17,8 @@
 .genius {
   display: grid;
   grid-template-areas: "verde vermelho" "amarelo azul";
-  grid-gap: 10px;
-  border: 10px solid #000;
+  grid-gap: 20px;
+  border: 35px solid #000;
   background-color: #333;
   border-radius: 100%;
   margin-top: 7%;
@@ -51,5 +51,5 @@
 }
 
 .selected {
-  opacity: 0.5;
+  opacity: 0.2;
 }
